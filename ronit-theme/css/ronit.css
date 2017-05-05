@@ -1,0 +1,43 @@
+@font-face {
+	font-family: 'Roboto', sans-serif;
+	src: ('fonts/Roboto/Roboto-Regular.ttf');
+}
+
+html,body
+:not(h1):not(h2):not(h3)
+:not(h4):not(h5):not(h6) {
+    font-family: 'Roboto', sans-serif;
+}
+
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: ('fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+::selection {
+	background-color: #bbd3fd;
+}
+
+.centered-text {
+    display: block;
+    text-align: center;
+}
+
+#navbar {
+	background-color: #4d94ff;
+}
+
+.menu-item a{
+	display: block;
+	color: white;
+	text-align: center;
+	
+}
+
+.menu-item li {
+	
+}
