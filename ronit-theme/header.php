@@ -11,5 +11,5 @@
 
         <h1>Welcome to rasmusronit.me!</h1>
         <div id="navbar">
-            <?php wp_nav_menu(array('theme-location'=='primary')); ?>
+            <?php wp_nav_menu(array('theme_location'=>'primary')); ?>
         </div>

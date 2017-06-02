@@ -14,6 +14,7 @@ function ronit_theme_setup() {
         add_theme_support('menus');
 
         register_nav_menu('primary', 'Primary header navigation');
+        register_nav_menu('secondary', 'Secondary navigation');
 
 }
 add_action('init', 'ronit_theme_setup');
